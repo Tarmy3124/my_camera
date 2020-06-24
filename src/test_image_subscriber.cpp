@@ -48,6 +48,7 @@ int main(int argc, char **argv)
   cv::namedWindow("cam0", CV_WINDOW_NORMAL);
   cv::namedWindow("cam1", CV_WINDOW_NORMAL);   
   cv::startWindowThread();  
+///
 //  image_transport::ImageTransport it(nh);  
 //  image_transport::Subscriber sub = it.subscribe("/cam1/image_raw", 1, /////imageCallback);
 

@@ -1,0 +1,4 @@
+<launch>
+
+    <node name="image_subscriber" pkg="my_camera" type="test_image_subscriber" output="screen"/>
+</launch>
